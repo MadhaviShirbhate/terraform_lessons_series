@@ -1,4 +1,4 @@
-# terraform_lessons_series
+# terraform_lessons_series `Lesson 1`
 In this code, we are creating azure resource group and azure storage account in main.tf file and decalring the required variables in var.sh file. The deployment is done using service principle.
 
 
@@ -33,6 +33,9 @@ In this code, we are creating azure resource group and azure storage account in 
 
 7. Ran terraform validate, terraform apply command, final output is as follows-
 <img width="946" alt="image" src="https://github.com/user-attachments/assets/2d307a51-03dc-434c-8cbd-7fd78a79e399" />
+
+8. Storage Account created
+<img width="945" alt="image" src="https://github.com/user-attachments/assets/48b22fa9-7514-4069-9678-e9e43de13c4a" />
 
 
 
