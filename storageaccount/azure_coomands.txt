@@ -1,0 +1,57 @@
+    1  mkdir terraformscripts
+    2  cd terraformscripts/
+    3  ls
+    4  pwd
+    5  mkdir storageaccount
+    6  cd storageaccount/
+    7  pwd
+    8  clear
+    9  ls
+   10  terraform init
+   11  terraform validate
+   12  terraform plan
+   13  pwd
+   14  mv /home/avneet/main.tf /home/avneet/terraformscripts/storageaccount/
+   15  ls
+   16  terraform init
+   17  nano main.tf 
+   18  terraform init
+   19  nano main.tf 
+   20  terraform init
+   21  terraform validate
+   22  terraform init
+   23  terraform providers
+   24  nano main.tf 
+   25  terraform init
+   26  nano main.tf 
+   27  terraform init
+   28  terraform validate
+   29  nano main.tf 
+   30  terraform init
+   31  terraform validate
+   32  terraform apply
+   33  mv /home/avneet/var.sh  /home/avneet/terraformscripts/storageaccount/
+   34  ls
+   35  terraform init
+   36  terraform validate
+   37  terraform apply
+   38  export ARM_CLIENT_ID=""
+   39  export ARM_CLIENT_SECRET=""
+   40  export ARM_SUBSCRIPTION_ID=""
+   41  export ARM_TENANT_ID=""
+   42  terraform apply
+   43  az ad sp create-for-rbac -n az-demo --role="Contributor" --scopes="/subscriptions/[200~"
+   44  az ad sp create-for-rbac -n testterraform --role="Contributor" --scopes="/subscriptions/011e9e7a-5307-4f1b-826c-1ca38075f723"
+   45  export ARM_CLIENT_ID=""
+   46  export ARM_CLIENT_SECRET=""
+   47  export ARM_SUBSCRIPTION_ID=""
+   48  export ARM_TENANT_ID=""
+   49  terraform apply
+   50  nano main.tf 
+   51  terraform apply
+   52  nano main.tf 
+   53  terraform apply
+   54  history
+   55  pwd
+   56  history > azure_commands.txt
+to exit Nano --> Ctrl + X, Y and enter
